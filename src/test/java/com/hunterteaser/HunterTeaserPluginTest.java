@@ -1,13 +1,13 @@
-package com.example;
+package com.hunterteaser;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class HunterTeaserPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(HunterTeaserPlugin.class);
 		RuneLite.main(args);
 	}
 }
